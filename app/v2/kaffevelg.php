@@ -76,7 +76,7 @@ if (!empty($_POST) && !empty($_POST['name']) && is_array($_POST['name'])) {
 	// Are names entered?
 	$names = clearEmpties($names);
 	if (sizeof($names) == 0) {
-		echo "<p>Du m� skrive inn minst ett navn! <a href='index.php'>Tilbake</a>.";
+		echo "<p>Du må skrive inn minst ett navn! <a href='index.php'>Tilbake</a>.";
 		die();
 	}
 	
@@ -84,7 +84,7 @@ if (!empty($_POST) && !empty($_POST['name']) && is_array($_POST['name'])) {
 	if ($_SESSION['newChoiceStarted'] === false) {
 		?>
 		<h3>HACK-PROTECTION</h3>
-		Ikke noe kjapp-refreshing-for-�-viske-ut-navnet-ditt, takk! G� tilbake til <a href="index.php">startsiden</a> (straff: alle navn er visket ut).
+		Ikke noe kjapp-refreshing-for-å-viske-ut-navnet-ditt, takk! Gå tilbake til <a href="index.php">startsiden</a> (straff: alle navn er visket ut).
 		<?php
 		die();
 	} else {
@@ -94,7 +94,7 @@ if (!empty($_POST) && !empty($_POST['name']) && is_array($_POST['name'])) {
 	// Output
 	echo "<img src='KaffeLogo.png' /><br/>";
 
-	echo "<p>Sannsynlighet for � bli valgt: " . (100 / sizeof($names)) . "%</p>";
+	echo "<p>Sannsynlighet for å bli valgt: " . (100 / sizeof($names)) . "%</p>";
 	echo "<p>Randomiserer...</p>";
 
 ?>
@@ -106,7 +106,7 @@ if (!empty($_POST) && !empty($_POST['name']) && is_array($_POST['name'])) {
 	$chosenPerson = makeSafe(findRandomPersonAmong($names));
 //	$log->add($chosenPerson, $names);
 	echo "<h1>$chosenPerson SKAL LAGE KAFFE</h1>";
-	echo "Saken er avgjort, da er det bare � sette igang trakteren!";
+	echo "Saken er avgjort, da er det bare å sette igang trakteren!";
 
 ?>
 </td></tr>
@@ -116,7 +116,7 @@ if (!empty($_POST) && !empty($_POST['name']) && is_array($_POST['name'])) {
 	Og ja, valget er _endelig_, ikke noe unnasluntring!
 </p>
 <p>
-	<b>NB!</b> Laging av kaffe inkluderer ogs� <b>henting</b> av kaffe.
+	<b>NB!</b> Laging av kaffe inkluderer også <b>henting</b> av kaffe.
 </p>
 
 <?php

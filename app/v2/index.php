@@ -19,10 +19,10 @@ h2 { margin-bottom: 0px }
 
 <img src="KaffeLogo.png" /><br/>
 
-Hvem skal få æren av å lage kaffe denne gangen?
+Hvem skal fÃ¥ Ã¦ren av Ã¥ lage kaffe denne gangen?
 
 <h2>Velg inkluderte personer*</h2>
-(* kan også være folk som ikke drikker kaffe)
+(* kan ogsÃ¥ vÃ¦re folk som ikke drikker kaffe)
 
 <br/>
 <br/>
