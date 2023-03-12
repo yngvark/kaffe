@@ -1,1 +1,2 @@
-FROM php:8.1-apache
+# 8.1-apache
+FROM php@sha256:9d90e70f20504ac59e96d27fbb0389f2e2273e110e57c3f30165498e21a5b3ab
