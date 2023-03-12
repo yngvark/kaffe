@@ -7,7 +7,9 @@ require_once('Security.php');
 <html>
 <body>
 <head>
+<link rel="stylesheet" href="blink.css">
 <style type="text/css">
+
 p {margin-left:20px; }
 br {padding-top:20px;}
 h2 { margin-bottom: 0px; }
@@ -105,7 +107,7 @@ if (!empty($_POST) && !empty($_POST['name']) && is_array($_POST['name'])) {
 <?php
 	$chosenPerson = makeSafe(findRandomPersonAmong($names));
 //	$log->add($chosenPerson, $names);
-	echo "<h1>$chosenPerson SKAL LAGE KAFFE</h1>";
+	echo "<h1 class='blink_me'>$chosenPerson SKAL LAGE KAFFE</h1>";
 	echo "Saken er avgjort, da er det bare å sette igang trakteren!";
 
 ?>
