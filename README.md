@@ -1,5 +1,7 @@
 # Kaffe
 
+Se den i aksjon: https://kaffe.yngvarlolz.oslo.systems
+
 Dette er en web-applikasjon som hjelper til å finne ut hvem som skal lage kaffe.
 
 Test ut med
